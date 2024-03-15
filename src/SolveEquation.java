@@ -1,8 +1,6 @@
 import javax.swing.*;
-import javax.swing.colorchooser.AbstractColorChooserPanel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.image.PackedColorModel;
 
 public class SolveEquation {
     public static void main(String[] args) {
@@ -64,8 +62,6 @@ public class SolveEquation {
         // Set frame size and make it visible
         frame.setSize(600, 400);
         frame.setVisible(true);
-        JTextArea textArea = new JTextArea(10, 20); // Rows, Columns
-        JScrollPane scrollPane = new JScrollPane(textArea); // Add scroll functionality
 
     }
     public static void first_degree_equation_1_variable(){
