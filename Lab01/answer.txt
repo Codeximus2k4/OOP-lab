@@ -1,0 +1,4 @@
+- Ex6.1:
+Q1 What happens if users choose cancel?
+ + The program will return "You have chosen NO" because we are setting the ternar operator which set options that are not "yes" to be "no"
+Q2 Customizing: We can use JOptionPane.showOptionDialog and customize your own options
