@@ -1,6 +1,9 @@
-package AimsService;
+package hust.soict.ict.test.cart;
 
-public class Aims {
+import hust.soict.ict.aims.cart.Cart;
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
+
+public class CartTest {
     public static void main(String[] args){
         Cart anOrder = new Cart();
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King","Animation","Roger Allers",87,19.95f);
@@ -11,8 +14,7 @@ public class Aims {
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin","Animation",18.99f);
         anOrder.addDigitalVideoDisc(dvd3);
-        anOrder.removeDigitalVideoDisc(2);
-        System.out.println("Total Cost is: ");
-        System.out.println(anOrder.totalCost());
+        anOrder.print_cart();
+        anOrder.search_by_title("ala");
     }
 }

@@ -1,8 +1,8 @@
-package AimsService;
+package hust.soict.ict.aims.disc;
 
 public class DigitalVideoDisc {
-    private String title;
-    private String category;
+    private String title = "n\\a";
+    private String category= "n\\a";
 
     public String getTitle() {
         return title;
@@ -34,6 +34,7 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
 
+
     public DigitalVideoDisc(String title) {
         this.title = title;
     }
@@ -42,7 +43,15 @@ public class DigitalVideoDisc {
         return cost;
     }
 
-    private String director;
-    private int length;
-    private float cost;
+    @Override
+    public String toString() {
+        return this.title + " - "+ this.category + " - "+ this.director + " - "+ Integer.toString(this.length)+" : "+ Float.toString(this.cost)+"$";
+    }
+    public boolean isMatch(String title){
+        return this.title.toLowerCase().contains(title.toLowerCase());
+    }
+
+    private String director="n\\a";
+    private int length=0;
+    private float cost=0;
 }
