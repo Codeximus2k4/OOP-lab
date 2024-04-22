@@ -45,7 +45,7 @@ public class DigitalVideoDisc {
 
     @Override
     public String toString() {
-        return this.title + " - "+ this.category + " - "+ this.director + " - "+ Integer.toString(this.length)+" : "+ Float.toString(this.cost)+"$";
+        return this.title + " - "+ this.category + " - "+ this.director + " - "+ this.length + " : "+ this.cost+"$";
     }
     public boolean isMatch(String title){
         return this.title.toLowerCase().contains(title.toLowerCase());
