@@ -34,7 +34,9 @@ public class Cart {
         }
         return total_cost;
     }
-
+    public void placeOrder(){
+        itemsOrdered.clear();
+    }
 
 
 

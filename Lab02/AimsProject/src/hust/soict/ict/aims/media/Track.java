@@ -1,6 +1,6 @@
 package hust.soict.ict.aims.media;
 
-abstract public class Track implements Playable {
+public class Track implements Playable {
     private String title;
     private int length;
 
@@ -21,5 +21,9 @@ abstract public class Track implements Playable {
     public Track(String title, int length){
         this.title = title;
         this.length =  length;
+    }
+    @Override
+    public boolean equals(Object obj){
+        return (this.getTitle().equals(((Track) obj).getTitle()) && (this.getLength()==((Track) obj).getLength()) && (obj instanceof Track));
     }
 }

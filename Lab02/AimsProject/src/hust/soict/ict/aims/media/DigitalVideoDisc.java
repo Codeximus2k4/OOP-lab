@@ -1,6 +1,6 @@
 package hust.soict.ict.aims.media;
 
-abstract public class DigitalVideoDisc extends Disc implements Playable{
+public class DigitalVideoDisc extends Disc implements Playable{
 
 
     public String getDirector() {
