@@ -36,15 +36,6 @@ public class Cart {
     }
 
 
-    public void print_cart(){
-        System.out.println("*********************CART*******************");
-        System.out.println("Ordered Items:");
-        for (int i=0; i<itemsOrdered.size();i++){
-            System.out.println(Integer.toString(i+1)+ ". DVD- "+ itemsOrdered.get(i).getTitle()+ " - "+ itemsOrdered.get(i).getCategory()+ " - "
-            + itemsOrdered[i].getDirector()+ " - "+ Integer.toString(itemsOrdered[i].getLength())+ ": "+ Float.toString(itemsOrdered[i].getCost())+"$");
-        }
-        System.out.println("Total_cost: "+ Float.toString(this.totalCost()));
-        System.out.println("********************************************");
-    }
+
 
 }
