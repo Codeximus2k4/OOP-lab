@@ -1,6 +1,8 @@
 package hust.soict.ict.aims.media;
 
-public class MediaComparatorByTitleCost {
+import java.util.Comparator;
+
+public class MediaComparatorByTitleCost implements Comparator<Media> {
     public int compare(Media o1, Media o2){
         int decide=0;
         if (o1.getTitle().compareTo(o2.getTitle())==0) {

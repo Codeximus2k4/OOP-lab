@@ -28,6 +28,9 @@ public class Store {
         }
         return chosen_one;
     }
+    public ArrayList<Media> getItemsInStore(){
+        return itemsInStore;
+    }
     public static void main(String[] args){
         ArrayList<Media> mediae = new ArrayList<Media>();
         CompactDisc cd = new CompactDisc();
