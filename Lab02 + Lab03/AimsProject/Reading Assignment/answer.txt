@@ -1,0 +1,2 @@
+Question 1: No Java does not allow you to create constructor to build DVD by category after having created a constructor to build DVD by title because otherwise there would exist two constructor with
+the same parameters => ambiguity
