@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a3201a-6028-4964-938e-084d18992a82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ict/aims/media/MediaComparatorByTitleCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/media/MediaComparatorByTitleCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ict/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GUIProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUIProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/ict/aims/screen/manager/MediaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/screen/manager/MediaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab04/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2gaVp6rakt8gS99rGUL87WnFMeP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +41,7 @@
     "Application.StoreManagerScreen.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "topic/update-classdiagram/aims-project/lab03",
+    "git-widget-placeholder": "release/04",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/admin/IdeaProjects/OOP lab/Lab02+Lab03/AimsProject"
   }

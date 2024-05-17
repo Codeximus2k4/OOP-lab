@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29e8dc99-648a-45d6-bc46-f6700c15e030" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/src/hust/soict/ict/AWTAccumulator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gaoaTKL2hJmXX5Ip4vh3qPWQVI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "release/04",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/OOP lab/Lab04",
     "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/OOP lab/GUIProject/src/Main.java"
   }
 }]]></component>

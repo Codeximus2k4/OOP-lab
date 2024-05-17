@@ -5,6 +5,8 @@ import hust.soict.ict.aims.media.Playable;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MediaStore extends JPanel {
     private Media media;
@@ -25,6 +27,7 @@ public class MediaStore extends JPanel {
        if (media instanceof Playable){
            JButton playButton = new JButton("Play");
            container.add(playButton);
+           playButton.addActionListener(new ButtonListener());
        }
        this.add(Box.createVerticalGlue());
        this.add(title);
@@ -33,6 +36,29 @@ public class MediaStore extends JPanel {
        this.add(container);
 
        this.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+    }
+    private class ButtonListener implements ActionListener {
+        JFrame f;
+        @Override
+        public void actionPerformed(ActionEvent evt){
+            String s =  evt.getActionCommand();
+            if (s.equals("Play")){
+                JDialog j =  new JDialog(f, "Media Play");
+                j.setLayout(new FlowLayout());
+                JButton b = new JButton ("OK");
+                b.addActionListener ( new ActionListener()
+                {
+                    public void actionPerformed( ActionEvent e )
+                    {
+                        j.setVisible(false);
+                    }
+                });
+                j.add( new JLabel ("Playing."));
+                j.add(b);
+                j.setSize(300,300);
+                j.setVisible(true);
+
+            }}
     }
 
 }
