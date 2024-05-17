@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b936ec18-0c38-4ffb-9ea5-e07c001930b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ict/swing/AWTAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/swing/AWTAccumulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ict/swing/SwingAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/swing/SwingAccumulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab04/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="29e8dc99-648a-45d6-bc46-f6700c15e030" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/GUIProject/src/hust/soict/ict/AWTAccumulator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2gamTED6SRT642nPj4i7RCHiYv2" />
+  <component name="ProjectId" id="2gaoaTKL2hJmXX5Ip4vh3qPWQVI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "topic/update-classdiagram/aims-project/lab03",
+    "git-widget-placeholder": "release/04",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/OOP lab/GUIProject/src/Main.java"
   }
@@ -47,12 +47,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b936ec18-0c38-4ffb-9ea5-e07c001930b3" name="Changes" comment="" />
-      <created>1715944069473</created>
+      <changelist id="29e8dc99-648a-45d6-bc46-f6700c15e030" name="Changes" comment="" />
+      <created>1715945114247</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715944069473</updated>
+      <updated>1715945114247</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
