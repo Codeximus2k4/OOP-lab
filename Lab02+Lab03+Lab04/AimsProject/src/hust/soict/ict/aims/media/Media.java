@@ -3,8 +3,10 @@ package hust.soict.ict.aims.media;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Collections;
+import hust.soict.ict.aims.exception.PlayerException;
+
 public class Media implements Playable{
-    public void play() {
+    public void play() throws PlayerException{
 
     }
 
@@ -50,9 +52,14 @@ public class Media implements Playable{
     private float cost;
 
     @Override
-    public boolean equals(Object obj) {
-        Media new_obj = (Media) obj;
-        return (new_obj.getTitle().equals(getTitle()) && (obj instanceof Media));
+    public boolean equals(Object obj)  {
+        try {
+            Media new_obj = (Media) obj;
+            return (new_obj.getTitle().equals(getTitle()) && (obj instanceof Media));
+        }
+        catch( ClassCastException e){
+            throw e;
+        }
     }
 
     public static void main(String[] args) {

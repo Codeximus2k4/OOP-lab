@@ -1,8 +1,11 @@
 package hust.soict.ict.aims;
 import java.util.Scanner;
 import hust.soict.ict.aims.cart.Cart;
+import hust.soict.ict.aims.exception.PlayerException;
 import hust.soict.ict.aims.store.Store;
 import hust.soict.ict.aims.media.*;
+
+import javax.naming.LimitExceededException;
 
 
 public class Aims {
@@ -52,7 +55,7 @@ public class Aims {
 
 
 
-    public void main(String[] args){
+    public void main(String[] args) throws PlayerException {
         Cart anOrder = new Cart();
         Store store = new Store();
         showMenu();
@@ -74,11 +77,17 @@ public class Aims {
                         else System.out.println("Must be a DVD or a CD to play");
                 }
             }
-            if (choice ==2){
+            if (choice ==2) {
                 System.out.println("Please input the title");
-                title =  myObj.nextLine();
+                title = myObj.nextLine();
                 result = store.findSpecificMedia(title);
-                if (result != null) anOrder.addMedia(result);
+                if (result != null) {
+                    try {
+                        anOrder.addMedia(result);
+                    } catch (LimitExceededException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
             if (choice ==3) {
                 System.out.println("Please input the title");

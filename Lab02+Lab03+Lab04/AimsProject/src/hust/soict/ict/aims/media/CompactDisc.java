@@ -1,5 +1,7 @@
 package hust.soict.ict.aims.media;
 
+import hust.soict.ict.aims.exception.PlayerException;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -38,7 +40,7 @@ public class CompactDisc extends Disc implements Playable {
         }
         return sumLength;
     }
-    public void play(){
+    public void play() throws PlayerException {
         Iterator<Track> iterator =  tracks.iterator();
         while (iterator.hasNext()){
             Track i = iterator.next();
