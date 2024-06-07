@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e8dc99-648a-45d6-bc46-f6700c15e030" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hust/soict/ict/javafx/Painter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/soict/ict/javafx/PainterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -33,12 +37,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Painter.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release/04",
+    "git-widget-placeholder": "release/05",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/OOP lab/Lab04",
-    "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/OOP lab/GUIProject/src/Main.java"
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/OOP lab/Lab02+Lab03+Lab04",
+    "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/OOP lab/GUIProject/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
